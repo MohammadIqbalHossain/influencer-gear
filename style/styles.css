@@ -44,11 +44,11 @@ Banner style
 */
 
 .banner-container {
-    
     left: 0;
     display: flex;
     justify-content: space-around;
     align-items: center; 
+    margin-bottom: 170px;
 }
 
 
@@ -81,12 +81,67 @@ Banner style
   
 }
 
-
 .image img{
-    background-image: url("../images/Circle-design.svg");
+    background-image: url("./images/Circle-design.svg");
     background-repeat: no-repeat;
     background-size: cover;
     width: 442px;
-    height: 414px;
-    
+    height: 414px;  
+}
+
+/* 
+==============
+Banner style
+==============
+*/
+
+.brand-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 120px;
+    margin-bottom: 100px;
+}
+.brand {
+    margin-right: 40px;
+}
+
+
+/* 
+================
+collection style
+================
+*/
+
+.collectons-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+    justify-items: center;
+  
+}
+
+.single-collection {
+    width: 300px;
+    padding: 14px;
+    border-radius: 5px;
+    box-shadow:  32px 64px rgba(0,0,0,0.02);
+    margin-bottom: 10px;
+    border: 1px solid red;
+
+}
+.single-collection img{
+    width: 300px;
+    height: 256px;
+}
+.single-collection h1 {
+    font-size: 28px;
+    color: #18191F;
+}
+.ratings i {
+    color: #b1a111fd;
+}
+.ratings span, p {
+    font-size: 14px;
+    color: #787885;
 }
