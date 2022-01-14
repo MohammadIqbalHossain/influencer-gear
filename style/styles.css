@@ -145,3 +145,67 @@ collection style
     font-size: 14px;
     color: #787885;
 }
+.more-arrow {
+    display: flex;
+    justify-content: end;
+    margin: 20px 25px;
+}
+.more-arrow p, i{
+    color: #E02C6D;
+    
+}
+
+
+/* 
+===================
+video section style
+===================
+*/
+
+.video {
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   margin-bottom: 100px;
+}
+
+.camera-info  {
+    width: 600px;
+}
+
+.camera-info h1 {
+    color: #18191F;
+}
+
+/* 
+===================
+footer section style
+===================
+*/
+
+.footer {
+    background: #0A0826;
+    text-align: center;
+    padding: 50px 0;
+}
+.footer {
+      background: none;
+      color: #FFFFFF;
+      margin: 10px 0;
+      position: relative
+}
+.icon {
+   background: none;
+}
+
+.icon>i{
+    margin-right: 20px;
+    font-size: 30px;
+
+    
+}
+.icon i{
+    background: #6c757d;
+    padding: 10px;
+    border-radius: 10px;
+}
