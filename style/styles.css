@@ -109,17 +109,15 @@ Banner style
 }
 
 .image > img{
-    
-   
+    background-image: url(../images/bg.svg);
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-position: fixed;
     width: 442px;
     height: 414px;  
 }
 
-.image {
-    background-image: url("./images/bg.svg");
-    background-repeat: no-repeat;
-    background-size: cover;
-}
+
 
 .image:hover img {
     transform: rotate(-360deg);
