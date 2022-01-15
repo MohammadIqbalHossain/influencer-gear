@@ -17,6 +17,12 @@
     --gray-bg: #787885;
     --star-r-color: #b1a111fd;
 }
+/* -------global-------------- */
+
+.sp-color {
+    color: #023047;
+    font-weight: bold;
+}
 
 /* 
 ==============
@@ -102,12 +108,22 @@ Banner style
   
 }
 
-.image>img{
-    background-image: url("./images/Circle-design.svg");
-    background-repeat: no-repeat;
-    background-size: cover;
+.image > img{
+    
+   
     width: 442px;
     height: 414px;  
+}
+
+.image {
+    background-image: url("./images/bg.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.image:hover img {
+    transform: rotate(-360deg);
+    transition: transform 2s ease-in;
 }
 
 /* 
@@ -198,6 +214,8 @@ video section style
 
 .camera-info h1 {
     color: var(--h1-color);
+    font-size: 40px;
+    margin: 20px 0;
 }
 
 /* 
