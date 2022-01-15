@@ -147,6 +147,11 @@ brand style
 collection style
 ================
 */
+.collections h1 {
+    text-align: center;
+    margin: 30px 0;
+    font-size: 35px;
+}
 
 .collectons-container {
     display: grid;
@@ -363,6 +368,7 @@ Media queries for tablet
 
 @media only screen and (min-width: 680px) and (max-width: 992px) {
     
+  
 
     /* collection section */
     .collectons-container {
