@@ -24,6 +24,8 @@
     font-weight: bold;
 }
 
+/* ---x----global---------x----- */
+
 /* 
 ==============
 Header style
@@ -350,10 +352,11 @@ Media queries for mobile
       width: 300px;
       text-align: center;
     }
+
+    /* footer */
     .footer-container {
         width: 100%;
     }
-    /* footer */
     .footer-info {
         margin: 0 100px;
     }
